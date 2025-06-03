@@ -93,7 +93,7 @@ pip install -r requirements.txt
 python huskylens_RPi.py
 ```
 
-4. The robot will detect learned tags from HuskyLens and send corresponding commands to Arduino to move accordingly.
+4. The robot will detect learned tags from HuskyLens and send corresponding commands to Arduino to move accordingly (Make sure to enable Learn Multiple if you want to use multiple April tags at once).
 
 ---
 
