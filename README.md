@@ -37,9 +37,8 @@ You can also copy/paste this README file to an LLM like ChatGPT and just follow 
 ```
 roboguide-v0.1/
 ├── huskylens_RPi.py     # Main Python script to interface with HuskyLens
-├── huskylib.py          # Helper functions for HuskyLens and serial comm
+├── huskylib.py          # The official HUSKYLENS library
 ├── v0_15.ino            # Arduino code controlling motors and sensors
-├── requirements.txt     # Python package requirements
 ├── README.md            # Project documentation
 └── LICENSE              # MIT License
 ```
