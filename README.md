@@ -49,11 +49,12 @@ roboguide-v0.1/
 
 ### Hardware
 
-- Raspberry Pi 3 or 4
+- Raspberry Pi 4 or 5 (Older versions might work as well)
 - HuskyLens AI Camera (DFRobot)
 - Arduino Mega or Uno (recommended: Mega)
 - Motor driver (e.g. L298N)
-- Ultrasonic sensors (optional for obstacle detection)
+- Ultrasonic sensor (optional for obstacle detection)
+- Infrared sensors (for the line following functionality)
 - Power supply (USB or Li-ion)
 
 ### Software
