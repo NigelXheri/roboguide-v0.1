@@ -37,9 +37,8 @@ You can also copy/paste this README file to an LLM like ChatGPT and just follow 
 ```
 roboguide-v0.1/
 ├── huskylens_RPi.py     # Main Python script to interface with HuskyLens
-├── huskylib.py          # Helper functions for HuskyLens and serial comm
+├── huskylib.py          # The official HUSKYLENS library
 ├── v0_15.ino            # Arduino code controlling motors and sensors
-├── requirements.txt     # Python package requirements
 ├── README.md            # Project documentation
 └── LICENSE              # MIT License
 ```
@@ -50,11 +49,12 @@ roboguide-v0.1/
 
 ### Hardware
 
-- Raspberry Pi 3 or 4
+- Raspberry Pi 4 or 5 (Older versions might work as well)
 - HuskyLens AI Camera (DFRobot)
 - Arduino Mega or Uno (recommended: Mega)
 - Motor driver (e.g. L298N)
-- Ultrasonic sensors (optional for obstacle detection)
+- Ultrasonic sensor (optional for obstacle detection)
+- Infrared sensors (for the line following functionality)
 - Power supply (USB or Li-ion)
 
 ### Software
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 python huskylens_RPi.py
 ```
 
-4. The robot will detect learned tags from HuskyLens and send corresponding commands to Arduino to move accordingly.
+4. The robot will detect learned tags from HuskyLens and send corresponding commands to Arduino to move accordingly (Make sure to enable Learn Multiple if you want to use multiple April tags at once).
 
 ---
 
